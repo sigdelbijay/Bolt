@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/feature_img"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:src="@drawable/art_word"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/ftxt_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="55$"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/ftxt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women T-shirt"
+        android:textSize="18sp"/>
+
+</LinearLayout>
